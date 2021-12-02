@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding='utf-8'?>
+<widget id="id.ac.budiluhur" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Budi Luhur University</name>
+    <description>
+        Budi Luhur University Mobile Application
+    </description>
+    <author email="daffamhmd1@gmail.com" href="http://www.budiluhur.ac.id/">
+        Muhammad Daffa Noor Ichsan
+    </author>
+    <content src="index.html"/>
+    <access origin="*" />
+<preference name="webviewbounce" value="false" />
+<preference name="UIWebViewBounce" value="false" />
+<preference name="DisallowOverscroll" value="true" />
+<preference name="SplashScreenDelay" value="1000" />
+<preference name="FadeSplashScreenDuration" value="1000" />
+<preference name="android-minSdkVersion" value="26" />
+<preference name="BackupWebStorage" value="none" />
+<preference name="orientation" value="potrait" />
+<preference name="SplashScreen" value="screen" />
+<feature name="StatusBar">
+    <param name="ios-package" onload="true" value="CDVStatusBar" />
+</feature>
+<platform name="android">
+    <icon density="ldpi" src="resources\android\icon\drawable-ldpi-icon.png" />
+    <icon density="ldpi" src="resources\android\icon\drawable-mdpi-icon.png" />
+    <icon density="ldpi" src="resources\android\icon\drawable-hdpi-icon.png" />
+    <icon density="ldpi" src="resources\android\icon\drawable-xhdpi-icon.png" />            
+    <icon density="ldpi" src="resources\android\icon\drawable-xxhdpi-icon.png" />
+    <icon density="ldpi" src="resources\android\icon\drawable-xxxhdpi-icon.png" />
+    <icon density="ldpi" src="resources\android\splash\drawable-port-ldpi-icon.png" />
+    <icon density="ldpi" src="resources\android\splash\drawable-port-mdpi-icon.png" />
+    <icon density="ldpi" src="resources\android\splash\drawable-port-hdpi-icon.png" />
+    <icon density="ldpi" src="resources\android\splash\drawable-port-xhdpi-icon.png" />
+<splash density="port-xxhdpi" src="resources\android\splash\drawable-port-xxhdpi-screen.png" />
+    <splash density="port-xxxhdpi" src="resources\android\splash\drawable-port-xxxhdpi-screen.png" />
+</platform>
+<icon src="resources\android\icon\drawable-xhdpi-icon.png" />
+<engine name="android" spec="^7.1.1" />
+</widget>
